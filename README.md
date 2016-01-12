@@ -17,4 +17,4 @@ Merge/Update (not replace) the bower.json file with the one supplied by foundati
 
 you can then use grun watch to update when you make a change
 
-When you run grunt for the first time an assets and assets/buld folder(s) will be created with all the relevent files for foundation in there.
+When you run grunt for the first time an assets and assets/buld folder(s) will be created one level above the foundation with all the relevent files for foundation in there.
