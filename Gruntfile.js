@@ -10,7 +10,6 @@ module.exports = function(grunt) {
     sass: {
       tasks: {
         files: {
-          'dist/assets/css/font-awesome.css': '<%= vendor %>/fontawesome/scss/font-awesome.scss',
           'dist/assets/css/foundation.css': 'scss/foundation.scss',
         }
       }
@@ -55,7 +54,6 @@ module.exports = function(grunt) {
           {expand:true, cwd: 'js/', src: ['foundation/*.js'], dest: 'dist/assets/js', filter: 'isFile'},
           {expand:true, cwd: 'scss/', src: '**/*.scss', dest: 'dist/assets/scss/', filter: 'isFile'},
           {src: 'bower.json', dest: 'dist/assets/'},
-          {expand: true, flatten: true, src: ['<%= vendor %>/fontawesome/fonts/*.*'], dest: '../assets/build/fonts/', filter: 'isFile'},
           {expand: true, flatten: true, src: ['doc/assets/img/icons/*.*'], dest: '../assets/build/images/', filter: 'isFile'},
           {expand: true, flatten: true, src: ['dist/assets/css/*.*'], dest: '../assets/build/css/', filter: 'isFile'},
 
@@ -67,7 +65,6 @@ module.exports = function(grunt) {
         files: {
 
                 '../assets/build/css/app.min.css': [
-                'dist/assets/css/font-awesome.css',
                 'dist/assets/css/foundation.css'
                 ]
               }
