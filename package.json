@@ -12,5 +12,5 @@
     "grunt-contrib-watch": "latest",
     "grunt-contrib-sass": "latest",
     "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-watch": "latest",
+    "grunt-contrib-watch": "latest"
 }
