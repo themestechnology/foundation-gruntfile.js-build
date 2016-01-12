@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "jquery": "latest",
-    "foundation": "latest",
+    "foundation": "latest"
   }
 }
